@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/mvnwebapp")
 public class ApiControl {
 
     @GetMapping("/hello")
     public ResponseEntity<String> hello() {
-        return ResponseEntity.ok("Hello World");
+        return ResponseEntity.ok("Hello World. Daryll Gwapo Kaayo!");
     }
 }
